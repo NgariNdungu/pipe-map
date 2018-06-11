@@ -1,0 +1,43 @@
+body {
+  font-size: 14px;
+}
+
+#map, #graph {
+  border: 1px solid black;
+  margin-right: 10px;
+  /*display: none;*/
+}
+
+#graph {
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+#container {
+}
+
+.chart {
+  height: 100%;
+  width: 100%;
+}
+
+.selectors {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 18%;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.selectors span {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+path.point:hover {
+  fill-opacity: 0.9;
+}

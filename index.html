@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pipe Map</title>
+    <link rel="stylesheet" href="assets/css/pipe.css">
+    <link rel="stylesheet" href="assets/css/leaflet.css">
+  </head>
+
+  <body>
+    <div id="container" style="height: 600px;">
+      <div id="map" style="height: 50%; width: 80%;">
+      </div>
+      <div class="selectors">
+        <span>Click on Select Endpoints, then click on any two points on the map. <br> <br> Not mobile or IE friendly </span>
+        <span><button type="button" name="button" onclick="toggleSelect()" class="select">Select Endpoints</button></span>
+        <span><input type="text" class="feedback" value="No selection" disabled></span>
+        <span><button type="button" class="reset" onclick="resetViews()" disabled="disabled">Reset</button></span>
+      </div>
+      <div id="graph" style="height: 40%; width: 80%;">
+      </div>
+    </div>
+    <script src="assets/js/leaflet-src.js" charset="utf-8"></script>
+    <script src="assets/js/d3.min.js" charset="utf-8"></script>
+    <script src="assets/js/pipe.js" charset="utf-8"></script>
+    
+  </body>
+</html>
